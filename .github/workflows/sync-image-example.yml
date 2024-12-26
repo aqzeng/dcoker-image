@@ -28,7 +28,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/nacos/nacos-server:v2.2.0 docker://crpi-5p0yw8t7ap3hr41z.cn-shanghai.personal.cr.aliyuncs.com/coolion666/nacos:v2.2.0
+         skopeo copy docker://docker.io/redis:7.0.12 docker://crpi-5p0yw8t7ap3hr41z.cn-shanghai.personal.cr.aliyuncs.com/coolion666/redis:7.0.12
          
          
          
